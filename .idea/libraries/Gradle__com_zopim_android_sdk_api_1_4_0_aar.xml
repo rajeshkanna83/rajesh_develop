@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zopim.android:sdk-api:1.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-api-1.4.0.aar/ce89b4cf9b53aa9d9902fd1857033041/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-api-1.4.0.aar/ce89b4cf9b53aa9d9902fd1857033041/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zopim.android/sdk-api/1.4.0/71c65a4e87cddad58026fc09dc26f6483dbce4b8/sdk-api-1.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

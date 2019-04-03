@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pressbox"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="2dp"
+
+            android:gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:maxHeight="150dp"
+            android:id="@+id/landing_logo"
+            android:background="@drawable/logospl"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="-5dp"
+            android:text="@string/clearExp"
+            android:textColor="@color/cleanerexp"
+            android:fontFamily="fonts/ProximaNova-Semibold.otf"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/white"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/btn_register"
+            android:text="Get Started"
+            style="@style/getStartedButton"
+            android:background="@color/pressbox"
+            android:layout_marginRight="0.125dp"
+            android:layout_marginTop="0.25dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/btn_login"
+            android:text="Login"
+            style="@style/getStartedButton"
+            android:layout_marginLeft="0.125dp"
+            android:layout_marginTop="0.25dp"
+            android:background="@color/pressbox"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_intro_video"
+        android:layout_below="@+id/linearLayout2"
+        android:gravity="center_vertical"
+        style="@style/IntroVideoButton"
+        android:orientation="horizontal">
+        <!--<Button
+            android:id="@+id/chat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:id="@+id/introtextview"
+            android:text="See how we work"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_large"
+            android:fontFamily="fonts/ProximaNova-Semibold.otf"
+
+            />
+
+        <ImageView
+            android:id="@+id/btn_intro_arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/playarrow2"
+             />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

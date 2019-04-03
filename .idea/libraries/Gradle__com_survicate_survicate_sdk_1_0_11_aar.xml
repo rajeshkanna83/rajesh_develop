@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.survicate:survicate-sdk:1.0.11@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/survicate-sdk-1.0.11.aar/a3e9d547cdbc63ebc2ed31a22a739232/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/survicate-sdk-1.0.11.aar/a3e9d547cdbc63ebc2ed31a22a739232/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/survicate-sdk-1.0.11.aar/a3e9d547cdbc63ebc2ed31a22a739232/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.survicate/survicate-sdk/1.0.11/54004da22f6ea50a8bd83763f8bcc0a2a9ea407c/survicate-sdk-1.0.11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
